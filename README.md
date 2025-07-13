@@ -163,11 +163,11 @@ df.write.mode("overwrite").partitionBy("year", "month_num").format("delta").save
 
 Use `display(df)` in Databricks notebooks:
 
-* 📅 Line Chart: `crime_trend` → crime count by month/category
-* 🔺 Bar Chart: `top_streets`
-* 🌍 Map: `crime_heatmap`
-* 🔢 Stacked Bar: `outcome_stats`
-* 🏛️ Matrix: `search_effectiveness` (search vs actual crime)
+*  Line Chart: `crime_trend` → crime count by month/category
+*  Bar Chart: `top_streets`
+*  Map: `crime_heatmap`
+*  Stacked Bar: `outcome_stats`
+* 🏛 Matrix: `search_effectiveness` (search vs actual crime)
 
 ---
 
